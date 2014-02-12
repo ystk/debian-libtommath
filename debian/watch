@@ -1,0 +1,8 @@
+# See uscan(1) for format
+
+# Compulsory line, this is a version 3 file
+version=3
+
+# <Webpage URL> <string match> [Version [Action]]
+http://libtom.org/?page=download&newsitems=5&whatfile=ltm \
+ files/ltm-(.*)\.tar\.bz2 debian uupdate

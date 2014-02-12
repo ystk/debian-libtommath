@@ -1,0 +1,14 @@
+Description: Fix version number in makefile
+Author: Joe Nahmias <jello@debian.org>
+
+--- libtommath-0.42.0.orig/makefile.shared
++++ libtommath-0.42.0/makefile.shared
+@@ -1,7 +1,7 @@
+ #Makefile for GCC
+ #
+ #Tom St Denis
+-VERSION=0:41
++VERSION=0:42
+ 
+ CC = libtool --mode=compile --tag=CC gcc
+ 

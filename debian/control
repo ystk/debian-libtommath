@@ -1,11 +1,12 @@
 Source: libtommath
-Priority: extra
+Priority: optional
 Maintainer: Joe Nahmias <jello@debian.org>
 Build-Depends: debhelper (>= 7.1), libtool, libtiff-tools,
  texlive-latex-recommended, ghostscript
 Build-Depends-Indep: texlive-latex-recommended, ghostscript
-Standards-Version: 3.9.0
+Standards-Version: 3.9.1
 Section: libs
+Homepage: http://libtom.org/?page=features&whatfile=ltm
 
 Package: libtommath-docs
 Section: doc

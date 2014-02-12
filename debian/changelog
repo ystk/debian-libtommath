@@ -1,3 +1,14 @@
+libtommath (0.42.0-1) unstable; urgency=low
+
+  * New upstream release, closes: #508900.
+  * change override to optional, closes: #610549.
+  * debian/control: Bump Std-Ver
+    + Don't install libtommath.la
+  * debian/control: Add Homepage
+  * debian/watch: added
+
+ -- Joe Nahmias <jello@debian.org>  Sun, 30 Jan 2011 22:32:44 -0500
+
 libtommath (0.39-4) unstable; urgency=low
 
   * Ack NMU, thanks!
