@@ -1,7 +1,7 @@
 Source: libtommath
 Priority: optional
 Maintainer: Joe Nahmias <jello@debian.org>
-Build-Depends: debhelper (>= 7.1), libtool, libtiff-tools,
+Build-Depends: debhelper (>= 7.1), libtool, libtool-bin, libtiff-tools,
  texlive-latex-recommended, ghostscript
 Build-Depends-Indep: texlive-latex-recommended, ghostscript
 Standards-Version: 3.9.1
