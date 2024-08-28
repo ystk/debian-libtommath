@@ -1,3 +1,15 @@
+libtommath (0.42.0-1.1+deb8u1) jessie-security; urgency=high
+
+  * Non-maintainer upload by the Debian ELTS team.
+  * CVE-2023-36328: Prevent a series of integer overflow vulnerabilties that
+    could have led attackers to execute arbitrary code and/or cause a denial of
+    service (DoS).
+  * Continuous integration changes:
+    * Add a debian/.gitlab-ci.yml.
+    * Add blhc failures in CI workflow.
+
+ -- Chris Lamb <lamby@debian.org>  Wed, 28 Aug 2024 10:39:52 +0100
+
 libtommath (0.42.0-1.1) unstable; urgency=medium
 
   * Non-maintainer upload.

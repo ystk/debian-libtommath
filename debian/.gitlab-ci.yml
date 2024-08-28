@@ -1,0 +1,5 @@
+include:
+  - https://salsa.debian.org/lts-team/pipeline/raw/master/recipes/jessie.yml
+
+blhc:
+  allow_failure: true
